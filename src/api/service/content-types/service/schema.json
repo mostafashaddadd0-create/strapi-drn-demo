@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs",
+  "collectionName": "services",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "Blog"
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "service"
   },
   "options": {
     "draftAndPublish": true
@@ -12,20 +12,20 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "text",
+      "type": "string",
       "required": true
+    },
+    "excerpt": {
+      "type": "text"
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
-    "excerpt": {
-      "type": "text"
-    },
     "content": {
       "type": "blocks"
     },
-    "cover": {
+    "cardImage": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -34,9 +34,6 @@
         "videos",
         "audios"
       ]
-    },
-    "featured": {
-      "type": "boolean"
     }
   }
 }
