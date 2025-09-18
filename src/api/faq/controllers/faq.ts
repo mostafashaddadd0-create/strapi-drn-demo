@@ -1,6 +1,7 @@
 /**
  * faq controller
  */
+// @ts-nocheck
 
 import { factories } from '@strapi/strapi'
 

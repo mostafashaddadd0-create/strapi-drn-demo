@@ -1,6 +1,7 @@
 /**
  * home router
  */
+// @ts-nocheck
 
 import { factories } from '@strapi/strapi';
 

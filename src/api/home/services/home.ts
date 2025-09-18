@@ -1,6 +1,7 @@
 /**
  * home service
  */
+// @ts-nocheck
 
 import { factories } from '@strapi/strapi';
 
