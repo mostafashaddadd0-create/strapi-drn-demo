@@ -1,6 +1,3 @@
-// ./config/plugins.js
 module.exports = () => ({
-  'cloud-cronjob-runner': {
-    enabled: false,
-  },
+  'cloud-cronjob-runner': { enabled: false },
 });
